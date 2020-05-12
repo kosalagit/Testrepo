@@ -1,11 +1,7 @@
-print("Hello, World!")
-
-
 import smtplib
 sender_email = "donbertrandson@gmail.com"
 rec_email = "donbertrandson@gmail.com"
-# password = input(str("please enter your password :"))
-password = "Cameroon@2"
+password = input(str("please enter your password :"))
 message = "This email was generated using python"
 server = smtplib.SMTP ("smtp.gmail.com", 587)
 server.starttls()
